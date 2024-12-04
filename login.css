@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rent, .signup {
+    margin: 2rem;
+}
+
+a > .signup {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 1);
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+    padding: 1rem  3rem;
+    /* top: 76.7px;
+    left: 21px;
+    gap: 8px; */
+}
+
+.head {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+h2 {
+    color: rgba(255, 255, 255, 1);
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 2rem 2rem 4rem 2rem;
+    padding: 2rem 0;
+}
+
+.accounts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+
+}
+
+.set {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid rgba(237, 241, 243, 1);
+    border-radius: 5px;
+    width: 170px;
+    height: 48px;
+    padding: 2px 5px;
+    margin: 0px 5px;
+}
+
+.account-img {
+    padding: 2rem;
+
+}
+
+.or {
+    font-weight: 500;
+    text-align: center;
+    color: gray;
+    padding: 3rem;
+}
+
+form {
+    margin-bottom: 20px; /* Space between form and next elements */ 
+
+}
+label, .radio { 
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500; /* Example style */ 
+    font-size: 1.5rem;
+    opacity: 80%;
+
+}
+
+
+
+input/*[type="text"]*/ {
+    width: 85%; /* Full width */ 
+    padding: 10px; /* Space inside input */ 
+    box-sizing: border-box; /* Ensure padding doesn't affect total width */ 
+    margin: 1rem 0rem 1rem 3rem; 
+    border: 1px solid rgba(237, 241, 243, 1);
+    opacity: 80%;
+    border-radius: 8px;
+}
+
+label {
+    margin: 0 2rem;
+}
+
+.remembered {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.remember {
+    width: 5%;
+
+}
+
+.label {
+    margin: 0;
+}
+
+.checkbox-group {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    margin-bottom: 20px; /* Space below checkbox */ 
+} 
+.checkbox-group input[type="checkbox"] { 
+    margin-right: 10px; /* Space between checkbox and label text */ 
+}
+
+
+.forgot {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.8px;
+    letter-spacing: -0.01em;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 50%;
+    padding: 2rem;
+}
+
+.button-container { 
+    display: flex; 
+    justify-content: center; 
+} 
+.login-btn { 
+    display: inline-block; 
+    padding: 1.5rem 12rem;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+    background-color: rgba(28, 28, 28, 1); 
+    color: rgba(255, 255, 255, 1); 
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 2rem; 
+}

@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img, .login {
+    margin: 2rem;
+}
+
+a > .login {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 1);
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+    padding: 1rem  3rem;
+    /* top: 76.7px;
+    left: 21px;
+    gap: 8px; */
+}
+
+.head {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+h2 {
+    color: rgba(255, 255, 255, 1);
+    /* width: 309.8px;
+    height: 84px;
+    top: 158.75px;
+    left: 20px; */
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 2rem 2rem 4rem 2rem;
+    padding: 2rem 0;
+    
+}
+
+
+.info {
+    padding: 1rem;
+}
+
+form {
+    margin-bottom: 20px; /* Space between form and next elements */ 
+}
+label, .radio { display: block;
+    margin-bottom: 5px;
+    font-weight: 500; /* Example style */ 
+    font-size: 1.5rem;
+
+}
+
+
+
+input[type="text"] {
+    width: 90%; /* Full width */ 
+    padding: 10px; /* Space inside input */ 
+    box-sizing: border-box; /* Ensure padding doesn't affect total width */ 
+    margin: 10px; /* Space below input */ 
+    border: 1px solid lightgray;
+}
+
+.radio {
+    margin: 20px; /* Space below radio buttons */ 
+} 
+.radio label {
+    display: block; /* Ensure each radio button is on its own line */
+    margin-bottom: 10px; /* Space between radio buttons */
+    font-weight: 300;
+}
+
+.terms {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox-group {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 20px; /* Space below checkbox */ 
+} 
+.checkbox-group input[type="checkbox"] { 
+    margin-right: 10px; /* Space between checkbox and label text */ 
+}
+
+.button-container { 
+    display: flex; 
+    justify-content: center; 
+} 
+.signup-btn { 
+    display: inline-block; 
+    padding: 1.5rem 12rem; 
+    background-color: rgba(28, 28, 28, 1); 
+    color: rgba(255, 255, 255, 1); 
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 2rem; 
+}
