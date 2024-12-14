@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Tenant.css">
+  <title>Tenant Page</title>
+</head>
+<body>
+  <header>
+    <h1>Available Listings</h1>
+    <nav>
+      <a href="index.html">Tenant</a>
+      <a href="landlord.html">Landlord</a>
+    </nav>
+  </header>
+  
+  <section class="filters">
+    <label>
+      Price Range:
+      <input type="text" id="priceRange" placeholder="e.g., 500-1500">
+    </label>
+    <label>
+      Type:
+      <select id="houseType">
+        <option value="">All</option>
+        <option value="Apartment">Apartment</option>
+        <option value="Villa">Villa</option>
+      </select>
+    </label>
+    <button id="filterBtn">Filter</button>
+  </section>
+  
+  <section id="listings" class="listings"></section>
+  
+  <script src="script.js"></script>
+</body>
+</html>
