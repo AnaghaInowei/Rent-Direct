@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tenant.css">
+    <link rel="icon" href="Frame 1171276076.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Landlord Page</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-link">
+            <a href="landingPage.html"><img src="Assets/images/rentDirect.png" alt="RentDirect" width="158" height="42"></a>
+            <a href="#">Are you selling?</a>
+            <!-- <a href="index.html">Tenant</a>
+            <a href="landlord.html">Landlord</a> -->
+        </nav>
+    </header>
+
+    <section class="add-listing">
+        <h2>Add New Listing</h2>
+        <form id="listingForm">
+            <input type="text" id="title" placeholder="Title" required>
+            <input type="number" id="price" placeholder="Price" required>
+            <select id="type">
+                <option value="Apartment">Apartment</option>
+                <option value="Villa">Villa</option>
+            </select>
+            <input type="text" id="location" placeholder="Location" required>
+            <button type="submit">Add Listing</button>
+        </form>
+    </section>
+
+    <section id="landlordListings" class="listings"></section>
+
+    <script src="tenant.js"></script>
+</body>
+</html>

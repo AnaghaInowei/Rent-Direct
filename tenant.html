@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="Tenant.css">
-  <title>Tenant Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tenant.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Tenant Page</title>
 </head>
 <body>
-  <header>
-    <h1>Available Listings</h1>
-    <nav>
-      <a href="index.html">Tenant</a>
-      <a href="landlord.html">Landlord</a>
-    </nav>
-  </header>
-  
-  <section class="filters">
-    <label>
-      Price Range:
-      <input type="text" id="priceRange" placeholder="e.g., 500-1500">
-    </label>
-    <label>
-      Type:
-      <select id="houseType">
-        <option value="">All</option>
-        <option value="Apartment">Apartment</option>
-        <option value="Villa">Villa</option>
-      </select>
-    </label>
-    <button id="filterBtn">Filter</button>
-  </section>
-  
-  <section id="listings" class="listings"></section>
-  
-  <script src="script.js"></script>
+    <header>
+        <nav class="nav-link">
+            <a href="landingPage.html"><img src="Assets/images/rentDirect.png" alt="RentDirect" width="158" height="42"></a>
+            <a href="#">Are you selling?</a>
+            <!-- <a href="login.html"><p class="login">Login</p></a> -->
+        <!-- <a href="index.html">Tenant</a>
+        <a href="landlord.html">Landlord</a> -->
+        </nav>
+    </header>
+    
+    <section class="filters">
+        <label>
+            Price Range:
+            <input type="text" id="priceRange" placeholder="e.g., 500-1500">
+        </label>
+        <label>
+            Type:
+            <select id="houseType">
+                <option value="">All</option>
+                <option value="Self-Content">Self-Content</option>
+                <option value="One-bedroom">One-bedroom</option>
+                <option value="Two-bedroom">Two-bedroom</option>
+                <option value="Three-bedroom">Three-bedroom</option>
+                <option value="Duplex">Duplex</option>
+                <option value="Bungalow">Bungalow</option>
+                <option value="Apartment">Apartment</option>
+            </select>
+        </label>
+        <button id="filterBtn">Filter</button>
+    </section>
+    <section id="listings" class="listings"></section>
+    <script src="script.js"></script>
 </body>
 </html>
