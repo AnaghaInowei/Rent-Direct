@@ -61,6 +61,13 @@ h2 {
 
 .info {
     padding: 1rem;
+    background-color: white;
+    /* padding: 20px; */
+    margin: 30px 0px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin-left: 20%;
 }
 
 form {
@@ -81,6 +88,13 @@ input[type="text"] {
     box-sizing: border-box; /* Ensure padding doesn't affect total width */ 
     margin: 10px; /* Space below input */ 
     border: 1px solid lightgray;
+}
+input[type="password"] {
+    width: 90%; /* Full width */ 
+    padding: 10px; /* Space inside input */ 
+    box-sizing: border-box; /* Ensure padding doesn't affect total width */ 
+    margin: 10px; /* Space below input */ 
+    border: 1px solid  lightgray;
 }
 
 .radio {
@@ -109,14 +123,35 @@ input[type="text"] {
 
 .button-container { 
     display: flex; 
+    flex-direction: column;
     justify-content: center; 
+    align-items: center;
 } 
 .signup-btn { 
-    display: inline-block; 
+    display: block; 
     padding: 1.5rem 12rem; 
     background-color: rgba(28, 28, 28, 1); 
     color: rgba(255, 255, 255, 1); 
     text-align: center;
     text-decoration: none; 
     border-radius: 2rem; 
+    width: 40%;
+    /* height: 58px;
+    width: 174px; */
+}
+
+.log {
+    font-size: 1.2rem;
+}
+@media (max-width: 500px) {
+    .info {
+        width: 70%;
+        margin: 10px auto;
+    }
+    .signup-btn {
+        padding: 1.2rem 5rem;
+        /* height: 58px;
+        width: 174px; */
+
+    }
 }

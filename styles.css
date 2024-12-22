@@ -13,7 +13,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 100vh;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.9);
 
 }
@@ -46,7 +46,6 @@ body a, img, /*.head, .bottom*/ section{
     flex-direction: column;
     gap: 10rem;
     flex-wrap: wrap;
-    margin: a;
 }
 
 .head, .bottom {
@@ -92,8 +91,8 @@ h2 {
 }
 
 p {
-    font-size: 1.5rem;
-    line-height: 2.4rem;
+    font-size: 1.2rem;
+    line-height: 2.3rem;
     letter-spacing: 1%;
 }
 

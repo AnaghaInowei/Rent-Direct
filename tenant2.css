@@ -1,0 +1,122 @@
+/* General Reset and Box Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav.nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.nav-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 5px;
+}
+
+nav.nav-link a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section.add-listing {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin-left: 20%;
+}
+
+.add-listing h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form Styling */
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    width: 100%;
+}
+
+form input, form select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#desc{
+    border: 1px solid #ddd;
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+#project-image {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+
+form button {
+    padding: 10px;
+    background-color: #062fe7;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #052ad0;
+}
+
+/* Listings Styling */
+#landlordListings {
+    margin-top: 30px;
+}
+
+#landlordListings .listing {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#landlordListings .listing h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+#landlordListings .listing p {
+    font-size: 16px;
+    color: #555;
+}

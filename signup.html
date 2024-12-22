@@ -5,6 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Frame 1171276076.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signup.css">
+    <title>Sign Up Page</title>
+</head>
+<body>
+    <section class="head">
+        <nav class="nav-link">
+            <a href="index.html"><img src="Assets/images/rentDirect.png" alt="RentDirect" width="158" height="42"></a>
+            <a href="login.html"><p class="login">Login</p></a>
+        </nav>
+        <h2>Create an account to join RentDirect today.</h2>
+    </section>
+    <section class="info">
+        <form id="signup-form">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter your firstname" required>
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Enter your lastname" required>
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="email" placeholder="Enter your Email">
+
+            <div class="radio">
+                <p>Are you looking for a home or listing one?</p>
+                <label>
+                    <input type="radio" name="user-type" value="tenant" required>
+                    Tenant: I am looking for a home
+                </label>
+                <label>
+                    <input type="radio" name="user-type" value="landlord" required>
+                    Landlord: I am listing a property
+                </label>
+            </div>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter a strong password" required>
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+            
+            <div class="checkbox-group"> 
+                <input type="checkbox" id="terms" name="terms" required> 
+                <label for="terms">By checking this box, you agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+            </div>
+
+            <div class="button-container"> 
+                <button type="submit" class="signup-btn">Sign Up</button> 
+                <p class="log">Already have an account?</p>
+            <a href="login.html" class="log">Login</a>
+            </div>
+        </form>
+    </section>
+
+    <script src="signup.js"></script>
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Frame 1171276076.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="signup.css">
@@ -47,4 +109,4 @@
 
     <script src="signup.js"></script>
 </body>
-</html>
+</html> -->
